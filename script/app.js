@@ -7,8 +7,8 @@ blog.constant('blogConfig',{
     "categories":["PHP","ThinkPHP","服务器","数据库","前端","HTML5","CSS","javascript","jQuery","bootstrap","angularjs","phonegap","go","python","工具","编辑器"],
     //数据存储到AVOS中
     //AVOS相关配置,请到https://cn.avoscloud.com/,创建应用
-    "AVOS_ID":"l33c40ot1nhdgzkc5ljh2dzn2i8z4jaxlr40zyhmqbxjc1lp",
-    "AVOS_KEY":"fzho7uxsmpqwsvvopblxyd3ma6d25u999ena17hyuid7865y",
+    "AVOS_ID":"bkhr2ewlmibn5i0kl4cua3id7stx6jt2gtslrb7hynw61zvt",
+    "AVOS_KEY":"xkxc3txu5olv29wkogtp5jvx2uqkhsb1765vursj74c5z0nr",
     //编辑器图片上传到sinastroage中。
     //sinastorage相关配置， 请到http://open.sinastorage.com/ 创建应用
     "sinastorage_bucket":"blogimg",
