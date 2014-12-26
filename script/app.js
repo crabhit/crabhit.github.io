@@ -26,7 +26,7 @@ blog.constant('angularMomentConfig', {
 });
 //##########服务
 blog.factory('article',function($resource){
-   return $resource('https://cn.avoscloud.com/1/classes/article/:objectId',{objectId:'@objectId'},{
+   return $resource('https://cn.avoscloud.com/1.1/classes/article/:objectId',{objectId:'@objectId'},{
             "delete":{
                 method:"DELETE"
             },
@@ -38,7 +38,7 @@ blog.factory('article',function($resource){
 
 
 blog.factory('userlogin',function($resource){
-   return $resource('https://cn.avoscloud.com/1/login');
+   return $resource('https://cn.avoscloud.com/1.1/login');
 })
 
 blog.factory('blogInterceptor',function($q){
