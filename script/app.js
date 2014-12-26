@@ -6,7 +6,7 @@ blog.constant('blogConfig',{
     "duoshuo_domain":"luofeico",//多说评论，你在多说上申请的二级域名
     "categories":["PHP","ThinkPHP","服务器","数据库","前端","HTML5","CSS","javascript","jQuery","bootstrap","angularjs","phonegap","go","python","工具","编辑器"],
     //数据存储到AVOS中
-    //AVOS相关配置,请到https://cn.avoscloud.com/,创建应用
+    //AVOS相关配置,请到https://leancloud.cn/,创建应用
     "AVOS_ID":"bkhr2ewlmibn5i0kl4cua3id7stx6jt2gtslrb7hynw61zvt",
     "AVOS_KEY":"xkxc3txu5olv29wkogtp5jvx2uqkhsb1765vursj74c5z0nr",
     //编辑器图片上传到sinastroage中。
@@ -26,7 +26,7 @@ blog.constant('angularMomentConfig', {
 });
 //##########服务
 blog.factory('article',function($resource){
-   return $resource('https://cn.avoscloud.com/1.1/classes/article/:objectId',{objectId:'@objectId'},{
+   return $resource('https://leancloud.cn/1.1/classes/article/:objectId',{objectId:'@objectId'},{
             "delete":{
                 method:"DELETE"
             },
@@ -38,7 +38,7 @@ blog.factory('article',function($resource){
 
 
 blog.factory('userlogin',function($resource){
-   return $resource('https://cn.avoscloud.com/1.1/login');
+   return $resource('https://leancloud.cn/1.1/login');
 })
 
 blog.factory('blogInterceptor',function($q){
